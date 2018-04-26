@@ -2,7 +2,7 @@ require "twitter"
 
 def cmd
   loop do
-    print "\e[35mchapitter>>\e[0m "
+    print "\e[35mtwitter>>\e[0m "
 
     a,b = gets.split(" ")
 
