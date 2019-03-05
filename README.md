@@ -1,11 +1,31 @@
 # chapitter
 ターミナルから快適にTwitterができる
 
-## 使用言語
+## Language
 ・ruby 2.4.2
 
-## 概要
+## About
 ・コマンドライン上でTwitterができるTwitterクライアント
+・画面移動する必要がないためコマンドのみでの操作が可能
+
+## Usage
+
+```
+$bundle install --path vendor/bundle
+$bundle exec ruby main.rb
+```
+
+その後TwitterAPI Keyを指示された通りに入力する
+
+
+## Command
+- tw
+ツイートができる
+
+- tl
+タイムラインの取得。第一引数に数字を入れると取得するツイート数の指定ができる。
+
+- 
 
 
 
